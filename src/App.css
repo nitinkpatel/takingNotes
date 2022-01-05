@@ -1,5 +1,9 @@
+*{
+  background-color: rgb(255, 255, 255);
+}
 .App {
   text-align: center;
+  background-color: rgb(71, 64, 55);
 }
 
 .App-logo {
@@ -22,6 +26,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -35,4 +40,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+input{
+  border-bottom: 0.5rem outset pink;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+  }
+  
+.main{
+  display: grid;
+}
+
+ h1{
+
+  text-align: center;
+  color: rgb(39, 28, 28);
+  box-shadow: 10px 10px 20px #282c34;
+  background-color: rgb(109, 116, 115);
+
+
+}
+
+button{
+  border:dotted;
+  margin: auto;
+  padding: auto;
+  font-weight: bold;
+  border-radius: 5rem;
+  height: 2em;
+  width: 10em;
+  background-color: rgb(214, 180, 44);
+  box-shadow: 5px 5px 15px  rgba(0, 0, 0, 1);
+  color:white
+  }
+  
+  button:hover{
+    background-color: rgb(118, 148, 73);
+  }
+
+  ol li{
+    text-transform: capitalize;
+    
+
+  }
+
+  .note{
+font-weight:bolder;
+text-align: left;
+margin: 20px 50px;
+  }
+
+  .cross{
+    display: flex;
+    height: 20px;
+    width: 20px;
+background-color: red;
+justify-content: center;
+text-align: center;
+margin:  0px -50px;
+border: solid;
+align-items: left;
+box-shadow: none; 
+border-color: rgba(0, 0, 0, 1);
 }
